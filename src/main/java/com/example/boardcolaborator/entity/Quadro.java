@@ -21,6 +21,4 @@ public class Quadro {
     private String descricao;
     @OneToMany
     private List<Coluna> coluna;
-    @Column(nullable = false)
-    private Double posicao;
 }
